@@ -6,9 +6,14 @@
         <title>Les recettes de Fifi</title>
     </head>
     <body>
-    <?php
-    require_once '../system/test.php';
-        // var_dump($_SERVER['REQUEST_URI']);
-    ?>
+    <h1>Les recettes de Fifi</h1>
+
+    <nav>
+        <ul>
+            <li><a href="/">Accueil</a></li>
+            <li><a href="test">Mes petits tests</a></li>
+            <li><a href="recettes">Mes recettes</a></li>
+        </ul>
+    </nav>
     </body>
 </html>
